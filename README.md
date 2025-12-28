@@ -42,15 +42,35 @@ The application fetches dynamic product data from the [FakeStore API](https://fa
 
 ### Home Page
 The landing page featuring the latest products and hero section.
-![Home Page](Snaps/home.png)
+![Home Page](Snaps/Home.png)
 
 ### Shopping Cart
 A clean and functional cart interface for managing orders.
-![Shopping Cart](Snaps/cart.png)
+![Shopping Cart](Snaps/Cart.png)
 
 ### Product Details
 Comprehensive product information with an interactive layout.
-![Product Details](Snaps/product.png)
+![Product Details](Snaps/productPage.png)
+
+### Contact Us
+A clean and functional contact page for users to get in touch with the store.
+![Contact Us](Snaps/contactUs.png)
+
+### Login
+A clean and functional login page for users to log in to their accounts.
+![Login](Snaps/login.png)
+
+### Register
+A clean and functional register page for users to create new accounts.
+![Register](Snaps/createAccount.png)
+
+### About Us
+A clean and functional about page for users to learn more about the store.
+![About Us](Snaps/aboutUs.png)
+
+### Forgot Password
+A clean and functional forgot password page for users to reset their passwords.
+![Forgot Password](Snaps/resetPassword.png)
 
 ## 🛠 Technologies Used
 - **HTML5:** Semantic structure and accessibility.
