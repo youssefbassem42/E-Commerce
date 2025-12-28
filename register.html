@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register </title>
+  <link rel="stylesheet" href="css/register.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="headBar">
+    <div class="left">
+      <a href="mailto:support@Otlobni.com" class="item" style="margin-left: 10px;">
+        <i class="fa fa-envelope"></i>
+        support@Otlobni.com
+      </a>
+      <a href="tel:+201234567890" class="item">
+        <i class="fa fa-phone"></i>
+        +20 123 456 7890
+      </a>
+    </div>
+
+    <div class="right">
+      <a href="login.html" class="item">
+        <i class="fa fa-user"></i>
+        Login
+      </a>
+
+      <a href="cart.html" class="item cart">
+        <i class="fa fa-shopping-cart"></i>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="navBar">
+      <h2> Otlobni</h2>
+      <a href="home.html">Home</a>
+      <a href="contact_us.html">Contact Us</a>
+      <a href="AboutUs.html">About Us</a>
+
+    </div>
+  </div>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="header-content">
+        <h1>Create Account</h1>
+        <p>Home . Pages . <span class="highlight">Register</span></p>
+      </div>
+    </div>
+  </header>
+
+  <div class="register-container">
+    <div class="lf">
+      <h2>Create Account</h2>
+      <p>Sign up to get access to exclusive features.</p>
+
+      <form id="registerForm">
+        <div class="fg">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" class="fc" required>
+          <div class="error-msg" id="name-error"></div>
+        </div>
+
+        <div class="fg">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" class="fc" required>
+          <div class="error-msg" id="email-error"></div>
+        </div>
+
+        <div class="fg">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="fc" required>
+          <div class="password-rules" id="password-rules">
+            <span id="rule-message"></span>
+          </div>
+        </div>
+
+        <div class="fg">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" class="fc" required>
+          <div class="error-msg" id="confirm-error">Passwords do not match</div>
+        </div>
+
+        <button type="submit" class="bl" id="submitBtn" disabled>Create Account</button>
+      </form>
+
+      <div class="back">
+        <a href="login.html">← Already have an account?</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-container">
+      <div class="footer-box">
+        <div class="title">About</div>
+        <p class="footer-text">
+          We are an online store that offers high quality products
+          with affordable prices. Our goal is to give you the best
+          shopping experience.
+        </p>
+      </div>
+
+      <div class="footer-box">
+        <div class="title">Pages</div>
+        <ul>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-box">
+        <div class="title">Contact</div>
+        <p>Email: info@shop.com</p>
+        <p>Phone: +20 123 456 789</p>
+        <p>Address: Assiut, Egypt</p>
+      </div>
+
+      <div class="footer-box">
+        <div class="title">Follow Us</div>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="copy">
+      &copy; 2025 Your Store Name. All Rights Reserved.
+    </div>
+  </div>
+
+  <script src="js/register.js"></script>
+</body>
+
+</html>

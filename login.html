@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login </title>
+    <link rel="stylesheet" href="css/login.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <div class="headBar">
+        <div class="left">
+            <a href="mailto:support@Otlobni.com" class="item">
+                <i class="fa fa-envelope"></i>
+                support@Otlobni.com
+            </a>
+            <a href="tel:+201234567890" class="item">
+                <i class="fa fa-phone"></i>
+                +20 123 456 7890
+            </a>
+        </div>
+
+        <div class="right">
+            <a href="login.html" class="item">
+                <i class="fa fa-user"></i>
+                Login
+            </a>
+            <a href="cart.html" class="item cart">
+                <i class="fa fa-shopping-cart"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="navBar">
+            <h2> Otlobni</h2>
+            <a href="home.html">Home</a>
+            <a href="contact_us.html">Contact Us</a>
+            <a href="AboutUs.html">About Us</a>
+
+        </div>
+    </div>
+
+
+    <div class="login-container">
+        <div class="lf">
+            <h2>Login</h2>
+            <p>Please login using account details below.</p>
+            <form id="loginForm">
+                <div class="fg">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="fc" required>
+                    <span id="email-error" style="color: red; display: none; font-size: 12px;"></span>
+                </div>
+                <div class="fg">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="fc" required>
+                    <span id="password-error" style="color: red; display: none; font-size: 12px;"></span>
+                </div>
+                <div class="fg fp">
+                    <a href="forgot-password.html">Forgot your password?</a>
+                </div>
+                <button type="submit" class="bl" id="submitBtn">Sign In</button>
+                <div class="sl">
+                    Don't have an account? <a href="register.html">Create account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <div class="title">About</div>
+                <p class="footer-text">
+                    We are an online store that offers high quality products
+                    with affordable prices. Our goal is to give you the best
+                    shopping experience.
+                </p>
+            </div>
+
+            <div class="footer-box">
+                <div class="title">Pages</div>
+                <ul>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <div class="title">Contact</div>
+                <p>Email: info@shop.com</p>
+                <p>Phone: +20 123 456 789</p>
+                <p>Address: Assiut, Egypt</p>
+            </div>
+
+            <div class="footer-box">
+                <div class="title">Follow Us</div>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="copy">
+            &copy; 2025 Your Store Name. All Rights Reserved.
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>

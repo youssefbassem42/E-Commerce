@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* container للفورم */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 44px - 350px); /* خصم ارتفاع الهيدر والفوتر تقريبا */
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.lf {
+  width: 433px;
+  background-color: white;
+  border: 1px solid #C2C5E1;
+  border-radius: 8px;
+  padding: 40px 32px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.lf h2 {
+  font-size: 22px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.lf p {
+  text-align: center;
+  color: #6c757d;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.fg {
+  margin-bottom: 20px;
+}
+
+.fg:last-child {
+  margin-bottom: 24px;
+}
+
+.fg label {
+  display: block;
+  font-size: 13px;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.fc {
+  width: 100%;
+  height: 44px;
+  padding: 0 14px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.fc:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.1);
+}
+
+.fp {
+  text-align: right;
+}
+
+.fp a {
+  font-size: 13px;
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.fp a:hover {
+  text-decoration: underline;
+}
+
+.bl {
+  width: 100%;
+  height: 47px;
+  background-color: #FB2E86;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-shadow: 0 2px 4px rgba(251, 46, 134, 0.3);
+}
+
+.bl:hover {
+  background-color: #e91e63;
+  transform: translateY(-1px);
+}
+
+.sl {
+  text-align: center;
+  font-size: 13px;
+  color: #6c757d;
+  margin-top: 20px;
+}
+
+.sl a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 600;
+}

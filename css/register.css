@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #151875;
+}
+
+/* Page Header */
+.page-header {
+  background-color: #F6F5FF;
+  padding: 100px 0;
+  margin-bottom: 80px;
+}
+
+.page-header h1 {
+  font-size: 36px;
+  color: #101750;
+  margin-bottom: 10px;
+}
+
+.page-header p {
+  font-size: 16px;
+  color: #000;
+}
+
+.page-header .highlight {
+  color: #FB2E86;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.lf {
+  width: 544px;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lf h2 {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.lf p {
+  text-align: center;
+  color: #9096B2;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+#registerForm {
+  width: 100%;
+}
+
+.fg {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.fg label {
+  display: block;
+  font-size: 16px;
+  color: #9096B2;
+  margin-bottom: 8px;
+}
+
+.fc {
+  width: 100%;
+  height: 52px;
+  padding: 0 14px;
+  border: 1px solid #C2C5E1;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #9096B2;
+  outline: none;
+}
+
+.fc:focus {
+  border-color: #FB2E86;
+}
+
+.fc.invalid {
+  border-color: #e74c3c;
+}
+
+.fc.valid {
+  border-color: #2ecc71;
+}
+
+.error-msg {
+  color: #e74c3c;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 6px;
+  display: none;
+}
+
+.password-rules {
+  font-size: 12px;
+  color: #e74c3c;
+  margin-top: 6px;
+  display: none;
+}
+
+.bl {
+  width: 100%;
+  height: 47px;
+  background-color: #FB2E86;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.bl:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.bl:hover:not(:disabled) {
+  background-color: #e91e63;
+}
+
+.back {
+  text-align: center;
+  font-size: 17px;
+  color: #9096B2;
+  margin-top: 20px;
+}
+
+.back a {
+  color: #9096B2;
+  text-decoration: none;
+}
+
+.back a:hover {
+  color: #FB2E86;
+}

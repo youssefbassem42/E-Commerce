@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/cart_style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+
+    <div class="headBar">
+        <div class="left">
+            <a href="mailto:support@Otlobni.com" class="item" style="margin-left: 10px;">
+                <i class="fa fa-envelope"></i>
+                support@Otlobni.com
+            </a>
+            <a href="tel:+201234567890" class="item">
+                <i class="fa fa-phone"></i>
+                +20 123 456 7890
+            </a>
+        </div>
+
+        <div class="right">
+            <a href="login.html" class="item">
+                <i class="fa fa-user"></i>
+                Login
+            </a>
+
+            <a href="cart.html" class="item cart">
+                <i class="fa fa-shopping-cart"></i>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="navBar">
+            <h2> Otlobni</h2>
+            <a href="home.html">Home</a>
+            <a href="contact_us.html">Contact Us</a>
+            <a href="AboutUs.html">About Us</a>
+
+        </div>
+    </div>
+
+    <header class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>Shopping Cart</h1>
+                <p>Home . Pages . <span class="highlight">Shopping Cart</span></p>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="container cart-container">
+        <!-- Left Column: Product List -->
+        <section class="cart-products">
+            <div class="cart-table-header">
+                <div class="col-product">Product</div>
+                <div class="col-price">Price</div>
+                <div class="col-quantity">Quantity</div>
+                <div class="col-total">Total</div>
+            </div>
+
+            <div id="cart-items-container">
+            </div>
+
+            <div class="cart-actions">
+                <button id="update-cart-btn" class="btn-pink">Update Cart</button>
+                <button id="clear-cart-btn" class="btn-pink">Clear Cart</button>
+            </div>
+        </section>
+
+        <aside class="cart-sidebar">
+            <div class="cart-totals">
+                <h3>Cart Totals</h3>
+                <div class="totals-row">
+                    <span>Subtotals:</span>
+                    <span id="cart-subtotal">£0.00</span>
+                </div>
+                <div class="totals-row total-final">
+                    <span>Totals:</span>
+                    <span id="cart-total">£0.00</span>
+                </div>
+                <p class="shipping-note"><span class="green-dot">●</span> Shipping & taxes calculated at checkout</p>
+                <button class="btn-green">Proceed To Checkout</button>
+            </div>
+
+            <div class="calculate-shipping">
+                <h3>Calculate Shopping</h3>
+                <form>
+                    <input type="text" placeholder="Bangladesh">
+                    <input type="text" placeholder="Mirpur Dhaka - 1200">
+                    <input type="text" placeholder="Postal Code">
+                    <button class="btn-pink">Calculate Shiping</button>
+                </form>
+            </div>
+        </aside>
+    </main>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <div class="title">About</div>
+                <p class="footer-text">
+                    We are an online store that offers high quality products
+                    with affordable prices. Our goal is to give you the best
+                    shopping experience.
+                </p>
+            </div>
+
+            <div class="footer-box">
+                <div class="title">Pages</div>
+                <ul>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <div class="title">Contact</div>
+                <p>Email: info@shop.com</p>
+                <p>Phone: +20 123 456 789</p>
+                <p>Address: Assiut, Egypt</p>
+            </div>
+
+            <div class="footer-box">
+                <div class="title">Follow Us</div>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="copy">
+            &copy; 2025 Your Store Name. All Rights Reserved.
+        </div>
+    </div>
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
