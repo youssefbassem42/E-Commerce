@@ -1,7 +1,5 @@
 # Otlobni - E-commerce UI Kit
 
-![Project Banner](Snaps/home.png)
-
 ## 📋 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
