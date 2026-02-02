@@ -95,16 +95,20 @@
 
         <div class="ask-question">
             <h2 class="section-title">Ask a Question</h2>
-            <form action="#" class="question-form">
+            <form action="#" class="question-form" id="contactForm">
                 <div class="form-group">
-                    <input type="text" placeholder="Your Name*" required>
+                    <input type="text" name="name" placeholder="Your Name" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Subject*" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
                 </div>
                 <div class="form-group">
-                    <textarea placeholder="Type Your Message*" required></textarea>
+                    <!-- Honeypot (ANTI-SPAM) -->
+                    <input type="text" name="company" tabindex="-1" autocomplete="off" style="display:none">
+
+                    <textarea name="message" placeholder="Type Your Message" required></textarea>
                 </div>
+                <p id="status"></p>
                 <button type="submit" class="btn-send">Send Mail</button>
             </form>
         </div>
